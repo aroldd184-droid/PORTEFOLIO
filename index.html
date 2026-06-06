@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dongmo Arold – Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#accueil" class="nav-logo">Dongmo <span>Arold</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+        <li><a href="#apropos" class="nav-link">À propos</a></li>
+        <li><a href="#projets" class="nav-link">Projets</a></li>
+        <li><a href="#competences" class="nav-link">Compétences</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="accueil">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Étudiant en Génie Informatique · IUT de Douala</p>
+      <h1 class="hero-title">
+        Je suis <span class="accent">Arold</span>,<br/>
+        Développeur <em>en devenir</em><br/>
+        passionné par le web.
+      </h1>
+      <p class="hero-sub">GI FA · Université de Douala · Promotion 2025–2026</p>
+      <div class="hero-ctas">
+        <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+        <a href="#contact" class="btn btn-outline">Me contacter</a>
+      </div>
+    </div>
+    <div class="hero-deco">
+      <div class="deco-ring r1"></div>
+      <div class="deco-ring r2"></div>
+      <div class="deco-ring r3"></div>
+      <div class="deco-code">
+        <span>&lt;html&gt;</span>
+        <span>&nbsp;&nbsp;&lt;body&gt;</span>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;code/&gt;</span>
+        <span>&nbsp;&nbsp;&lt;/body&gt;</span>
+        <span>&lt;/html&gt;</span>
+      </div>
+    </div>
+    <div class="scroll-hint"><span></span></div>
+  </section>
+
+  <!-- ===== À PROPOS ===== -->
+  <section class="section" id="apropos">
+    <div class="container apropos-grid">
+      <div class="apropos-photo-wrap">
+        <div class="photo-frame">
+          <img src="PHOTO1.jpeg" alt="Dongmo Arold" class="photo"/>
+        </div>
+        <div class="photo-badge">
+          <i class="fas fa-code"></i>
+          <span>GI · Niveau 1</span>
+        </div>
+      </div>
+      <div class="apropos-text">
+        <p class="section-label">À propos</p>
+        <h2 class="section-title">Qui suis-je ?</h2>
+        <p class="apropos-desc">
+          Je m'appelle <strong>Dongmo Tagho Arold</strong>, étudiant en première année de
+          <strong>Génie Informatique</strong> à l'IUT de Douala. Passionné par la création
+          web, je découvre chaque jour de nouveaux concepts qui m'enthousiasment : HTML, CSS,
+          JavaScript, bases de données…
+        </p>
+        <p class="apropos-desc">
+          En dehors des cours, je m'intéresse à la <strong>photographie</strong>, à la
+          <strong>vidéographie</strong> et à la création de contenus. J'aime transformer
+          des idées en projets concrets, que ce soit sur écran ou à travers un objectif.
+        </p>
+        <p class="apropos-desc">
+          Mon objectif : maîtriser le développement web et contribuer à des projets
+          numériques utiles pour le Cameroun, comme mon concept de plateforme
+          <strong>Medical Care</strong>.
+        </p>
+        <a href="#" class="btn btn-primary" download>
+          <i class="fas fa-download"></i> Télécharger mon CV
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJETS ===== -->
+  <section class="section section-dark" id="projets">
+    <div class="container">
+      <p class="section-label light">Mes réalisations</p>
+      <h2 class="section-title light">Mes Projets</h2>
+      <div class="projets-grid">
+
+        <div class="projet-card" data-index="0">
+          <div class="projet-img">
+            <div class="projet-icon"><i class="fas fa-calculator"></i></div>
+          </div>
+          <div class="projet-body">
+            <h3>Calculatrice Interactive</h3>
+            <p>Une calculatrice fonctionnelle avec clavier physique supporté, construite en HTML/CSS/JS pur avec gestion d'événements DOM.</p>
+            <div class="projet-tags">
+              <span>#html</span><span>#css</span><span>#javascript</span><span>#dom</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="projet-card" data-index="1">
+          <div class="projet-img">
+            <div class="projet-icon"><i class="fas fa-book-open"></i></div>
+          </div>
+          <div class="projet-body">
+            <h3>JS Référentiel – IUT Douala</h3>
+            <p>Site de référence interactif couvrant les fiches 7 à 17 du cours JS avec démos live, accordéons et navigation multi-pages.</p>
+            <div class="projet-tags">
+              <span>#html</span><span>#css</span><span>#javascript</span><span>#dom</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="projet-card" data-index="2">
+          <div class="projet-img">
+            <div class="projet-icon"><i class="fas fa-cloud-sun"></i></div>
+          </div>
+          <div class="projet-body">
+            <h3>Plateforme Météo – IUT</h3>
+            <p>Application météo orientée campus avec conseils intelligents, indice de confort tropical et prévisions sur 5 jours.</p>
+            <div class="projet-tags">
+              <span>#html</span><span>#css</span><span>#javascript</span><span>#api</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COMPÉTENCES ===== -->
+  <section class="section" id="competences">
+    <div class="container">
+      <p class="section-label">Savoir-faire</p>
+      <h2 class="section-title">Mes Compétences</h2>
+      <div class="skills-grid">
+
+        <div class="skills-card">
+          <h3><i class="fas fa-brain"></i> Soft Skills</h3>
+          <div class="skill-item">
+            <div class="skill-info"><span>Rigueur & Organisation</span><span>55%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w="55"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Travail en équipe</span><span>60%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w="60"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Curiosité & Apprentissage</span><span>80%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w="80"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Résolution de problèmes</span><span>45%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w="45"></div></div>
+          </div>
+        </div>
+
+        <div class="skills-card">
+          <h3><i class="fas fa-code"></i> Hard Skills</h3>
+          <div class="skill-item">
+            <div class="skill-info"><span>HTML</span><span>65%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w="65"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>CSS</span><span>55%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w="55"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>JavaScript</span><span>40%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w="40"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>SQL / Bases de données</span><span>35%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w="35"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>VS Code</span><span>60%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w="60"></div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section section-dark" id="contact">
+    <div class="container">
+      <p class="section-label light">Travaillons ensemble</p>
+      <h2 class="section-title light">Vous avez un <span class="accent">projet</span> en tête ?<br/>N'hésitez pas à me <span class="accent">contacter</span></h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <strong>Localisation</strong>
+              <span>Douala, Cameroun</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-university"></i>
+            <div>
+              <strong>Institut</strong>
+              <span>IUT de Douala – GI FA</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-camera"></i>
+            <div>
+              <strong>Loisirs</strong>
+              <span>Photographie · Vidéographie · Création</span>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="prenom">Votre prénom</label>
+              <input type="text" id="prenom" name="prenom" placeholder="Jean" required/>
+              <span class="form-error" id="errPrenom"></span>
+            </div>
+            <div class="form-group">
+              <label for="nom">Votre nom</label>
+              <input type="text" id="nom" name="nom" placeholder="Dupont" required/>
+              <span class="form-error" id="errNom"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Votre email</label>
+            <input type="email" id="email" name="email" placeholder="jean@exemple.com" required/>
+            <span class="form-error" id="errEmail"></span>
+          </div>
+          <div class="form-group">
+            <label for="sujet">Votre sujet</label>
+            <input type="text" id="sujet" name="sujet" placeholder="Développement d'un site web" required/>
+            <span class="form-error" id="errSujet"></span>
+          </div>
+          <div class="form-group">
+            <label for="message">Votre message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Décrivez votre projet..." required></textarea>
+            <span class="form-error" id="errMessage"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+            <span id="btnText"><i class="fas fa-paper-plane"></i> Envoyer</span>
+            <span id="btnLoading" style="display:none"><i class="fas fa-spinner fa-spin"></i> Envoi...</span>
+          </button>
+          <div id="formSuccess" class="form-success" style="display:none">
+            <i class="fas fa-check-circle"></i> Message envoyé avec succès ! Je vous répondrai bientôt.
+          </div>
+          <div id="formError" class="form-error-global" style="display:none">
+            <i class="fas fa-exclamation-circle"></i> Erreur d'envoi. Vérifiez votre connexion.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>Designed by <a href="#accueil">Dongmo Arold</a> with HTML · CSS · JS &nbsp;|&nbsp; Tous droits réservés – 2026</p>
+  </footer>
+
+  <!-- EmailJS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
