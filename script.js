@@ -157,3 +157,17 @@ cards.forEach((c, i) => {
   c.dataset.index   = i;
   cardObserver.observe(c);
 });
+
+// MODALES
+function openModal(index) {
+  document.getElementById('modalOverlay').classList.add('open');
+  document.getElementById('modal' + index).classList.add('open');
+}
+
+function closeModal() {
+  document.querySelectorAll('.modal, .modal-overlay').forEach(el => el.classList.remove('open'));
+}
+
+document.addEventListener('keydown', e => { 
+  if(e.key === 'Escape') closeModal(); 
+});
